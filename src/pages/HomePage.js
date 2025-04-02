@@ -16,7 +16,7 @@ function HomePage() {
 
             <div className='about-container'>
                 <div className='about-image-container' onClick={() => navigate('/contact')}>
-                    <img src='/images/aboutUs.jpg' alt='About Us' />
+                    <img src={`${process.env.PUBLIC_URL}/images/aboutUs.jpg`} alt='About Us' />
                 </div>
                 <div className='about-text'>
                     <h2 className='about-title'>Discover the Best Car Rental Experience</h2>
@@ -92,7 +92,7 @@ function HomePage() {
                         chauffeur-driven options tailored to your needs. </p>
                 </div>
                 <div className='driver-image-container' onClick={() => navigate('/contact')}>
-                    <img src='/images/driver.jpg' alt='Driver' />
+                    <img src={`${process.env.PUBLIC_URL}/images/driver.jpg`} alt='Driver' />
                 </div>
             </div>
 
@@ -100,27 +100,27 @@ function HomePage() {
                 <h2 className='office-title'>Our Rental Office</h2>
                 <div className='office-gallery'>
                     <div className='office-gallery-img1 item'>
-                        <img src='/images/img1.jpg' alt='Office' />
+                        <img src={`${process.env.PUBLIC_URL}/images/img1.jpg`} alt='Office' />
                         <p className='image-content'>Seamless Travel Experience</p>
                     </div>
                     <div className='office-gallery-img2 item'>
-                        <img src='/images/img2.jpg' alt='Office' />
+                        <img src={`${process.env.PUBLIC_URL}/images/img2.jpg`} alt='Office' />
                         <p className='image-content'>Affordable Prices</p>
                     </div>
                     <div className='office-gallery-img3 item'>
-                        <img src='/images/img3.jpg' alt='Office' />
+                        <img src={`${process.env.PUBLIC_URL}/images/img3.jpg`} alt='Office' />
                         <p className='image-content'>Reliable & Trustworthy</p>
                     </div>
                     <div className='office-gallery-img4 item'>
-                        <img src='/images/img4.jpg' alt='Office' />
+                        <img src={`${process.env.PUBLIC_URL}/images/img4.jpg`} alt='Office' />
                         <p className='image-content'>Fast & Easy Booking</p>
                     </div>
                     <div className='office-gallery-img5 item'>
-                        <img src='/images/img5.jpg' alt='Office' />
+                        <img src={`${process.env.PUBLIC_URL}/images/img5.jpg`} alt='Office' />
                         <p className='image-content'>24/7 Support</p>
                     </div>
                     <div className='office-gallery-img6 item'>
-                        <img src='/images/img6.jpg' alt='Office' />
+                        <img src={`${process.env.PUBLIC_URL}/images/img6.jpg`} alt='Office' />
                         <p className='image-content'>Premium Car Selection</p>
                     </div>
                 </div>

@@ -8,17 +8,18 @@ function AllCars() {
     const navigate = useNavigate();
 
     const cars = [
-        { id: 1, name: "BMW 320d", image: "/images/bmw.jpg", engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 25 },
-        { id: 2, name: "Skoda Octavia", image: "/images/skoda.jpg", engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 30 },
-        { id: 3, name: "Audi A6", image: "/images/audi.jpg", engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 55 },
-        { id: 4, name: "Volkswagen Golf Mk7", image: "/images/golf.jpg", engine: "Diesel", transmission: "Automatic", body: "Hatchback", price: 30 },
-        { id: 5, name: "Volkswagen Passat B8", image: "/images/passat.jpg", engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 30 },
-        { id: 6, name: "Renault Megane dCi 110", image: "/images/renault.jpg", engine: "Diesel", transmission: "Manual", body: "Hatchback", price: 25 },
-        { id: 7, name: "Peugeot 2008", image: "/images/peugeot.jpg", engine: "Petrol", transmission: "Manual", body: "SUV", price: 30 },
-        { id: 8, name: "VW T-ROC", image: "/images/t-roc.jpg", engine: "Petrol", transmission: "Manual", body: "SUV", price: 30 },
-        { id: 9, name: "BMW X6", image: "/images/x6.jpg", engine: "Diesel", transmission: "Automatic", body: "SUV", price: 70 },
-        { id: 10, name: "Volkswagen Golf Mk8", image: "/images/golf8.jpg", engine: "Hybrid", transmission: "Automatic", body: "Hatchback", price: 50 },
+        { id: 1, name: "BMW 320d", image: `${process.env.PUBLIC_URL}/images/bmw.jpg`, engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 25 },
+        { id: 2, name: "Skoda Octavia", image: `${process.env.PUBLIC_URL}/images/skoda.jpg`, engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 30 },
+        { id: 3, name: "Audi A6", image: `${process.env.PUBLIC_URL}/images/audi.jpg`, engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 55 },
+        { id: 4, name: "Volkswagen Golf Mk7", image: `${process.env.PUBLIC_URL}/images/golf.jpg`, engine: "Diesel", transmission: "Automatic", body: "Hatchback", price: 30 },
+        { id: 5, name: "Volkswagen Passat B8", image: `${process.env.PUBLIC_URL}/images/passat.jpg`, engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 30 },
+        { id: 6, name: "Renault Megane dCi 110", image: `${process.env.PUBLIC_URL}/images/renault.jpg`, engine: "Diesel", transmission: "Manual", body: "Hatchback", price: 25 },
+        { id: 7, name: "Peugeot 2008", image: `${process.env.PUBLIC_URL}/images/peugeot.jpg`, engine: "Petrol", transmission: "Manual", body: "SUV", price: 30 },
+        { id: 8, name: "VW T-ROC", image: `${process.env.PUBLIC_URL}/images/t-roc.jpg`, engine: "Petrol", transmission: "Manual", body: "SUV", price: 30 },
+        { id: 9, name: "BMW X6", image: `${process.env.PUBLIC_URL}/images/x6.jpg`, engine: "Diesel", transmission: "Automatic", body: "SUV", price: 70 },
+        { id: 10, name: "Volkswagen Golf Mk8", image: `${process.env.PUBLIC_URL}/images/golf8.jpg`, engine: "Hybrid", transmission: "Automatic", body: "Hatchback", price: 50 }
     ];
+
 
 
 
@@ -65,7 +66,7 @@ function AllCars() {
                             and exceptional customer service. Whether you're traveling for business or leisure, we ensure your trip
                             is smooth and enjoyable with no hidden fees or surprises.
                         </p>
-                        <img src='/images/mission.jpg' alt='Our Mission' />
+                        <img src={`${process.env.PUBLIC_URL}/images/mission.jpg`} alt='Our Mission' />
                     </div>
                     <div className='our-mission-right'>
                         <ul className='our-mission-list'>

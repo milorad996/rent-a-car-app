@@ -4,7 +4,7 @@ function RentalTerms() {
     return (
         <div className="rental-terms-page">
             <div className="rental-terms-hero">
-                <img src="/images/car-hero.jpg" alt="Car Rental" className="hero-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/car-hero.jpg`} alt="Car Rental" className="hero-image" />
                 <div className="hero-content">
                     <h1>Rental Terms & Conditions</h1>
                     <p>Learn all the details before making your rental decision.</p>
@@ -44,7 +44,7 @@ function RentalTerms() {
                             </ul>
                         </div>
                         <div className="image-section">
-                            <img src="/images/insurance-icon.jpg" alt="Insurance and Liability" className="section-image" />
+                            <img src={`${process.env.PUBLIC_URL}/images/insurance-icon.jpg`} alt="Insurance and Liability" className="section-image" />
                         </div>
                     </div>
                 </section>
