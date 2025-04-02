@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rent-a-car-app/static/css/main.eaa3a5fe.css",
-    "main.js": "/rent-a-car-app/static/js/main.d778542b.js",
+    "main.js": "/rent-a-car-app/static/js/main.ed4379ca.js",
     "static/js/453.25a34b43.chunk.js": "/rent-a-car-app/static/js/453.25a34b43.chunk.js",
     "static/media/all-cars.jpeg": "/rent-a-car-app/static/media/all-cars.3aefcd372b45058732d9.jpeg",
     "static/media/contact-hero.jpg": "/rent-a-car-app/static/media/contact-hero.86f3263aa2a9edb80b7f.jpg",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/rent-a-car-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/rent-a-car-app/index.html",
     "main.eaa3a5fe.css.map": "/rent-a-car-app/static/css/main.eaa3a5fe.css.map",
-    "main.d778542b.js.map": "/rent-a-car-app/static/js/main.d778542b.js.map",
+    "main.ed4379ca.js.map": "/rent-a-car-app/static/js/main.ed4379ca.js.map",
     "453.25a34b43.chunk.js.map": "/rent-a-car-app/static/js/453.25a34b43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eaa3a5fe.css",
-    "static/js/main.d778542b.js"
+    "static/js/main.ed4379ca.js"
   ]
 }
