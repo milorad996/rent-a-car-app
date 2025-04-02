@@ -204,4 +204,8 @@
     .car-info p {
         border-radius: 0;
     }
+
+    .car-details-welcome {
+        height: 60vh;
+    }
 }

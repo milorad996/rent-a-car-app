@@ -199,11 +199,20 @@
 
         font-size: 12px;
     }
+
+    .all-cars-image {
+        height: 50%;
+    }
+
+    .all-cars-card img {
+        height: 300px;
+    }
 }
 
 @keyframes fadeUp {
     from {
         opacity: 0;
+
         transform: translateY(20px);
     }
 

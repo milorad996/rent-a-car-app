@@ -451,4 +451,21 @@
         height: 250px;
         margin-bottom: 15px;
     }
+
+    .welcome-title {
+        font-size: 1.1rem;
+    }
+
+    .welcome-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .welcome-button {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    .welcome-image {
+        height: 70vh;
+    }
 }
