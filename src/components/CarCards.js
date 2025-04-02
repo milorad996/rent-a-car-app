@@ -8,7 +8,7 @@ function CarCards() {
 
     const navigate = useNavigate();
     const cars = [
-        { id: 1, name: "BMW 320d", image: `${process.env.PUBLIC_URL}/images/bmw.jpg`, engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 25 },
+        { id: 1, name: "BMW 320d", image: "/rent-a-car-app/images/bmw.jpg", engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 25 },
         { id: 2, name: "Skoda Octavia", image: `${process.env.PUBLIC_URL}/images/skoda.jpg`, engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 30 },
         { id: 3, name: "Audi A6", image: `${process.env.PUBLIC_URL}/images/audi.jpg`, engine: "Diesel", transmission: "Automatic", body: "Sedan", price: 55 },
         { id: 4, name: "Volkswagen Golf Mk7", image: `${process.env.PUBLIC_URL}/images/golf.jpg`, engine: "Diesel", transmission: "Automatic", body: "Hatchback", price: 30 },
