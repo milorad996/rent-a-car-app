@@ -29,9 +29,9 @@ function CarCards() {
                         <div className='car-description'>
                             <h2 className="card-title">{car.name}</h2>
                             <ul className='car-description-list'>
-                                <li className='description-li'><i className="fas fa-cogs"></i> Engine: {car.engine}</li>
-                                <li className='description-li'><i className="fas fa-random"></i> Transmission: {car.transmission}</li>
-                                <li className='description-li'><i className="fas fa-car"></i> Body Type: {car.body}</li>
+                                <li className='description-li'><i className="fas fa-cogs fa-fw"></i>Engine: {car.engine}</li>
+                                <li className='description-li'><i className="fas fa-random fa-fw"></i>Transmission: {car.transmission}</li>
+                                <li className='description-li'><i className="fas fa-car fa-fw"></i>Body Type: {car.body}</li>
                             </ul>
                         </div>
                         <div className='car-details'>

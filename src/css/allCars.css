@@ -149,6 +149,8 @@
     margin-bottom: 20px;
 }
 
+
+
 .card-description-li {
     list-style-type: none;
     color: #666666;
@@ -313,4 +315,9 @@
     .our-mission-main-container {
         padding: 1rem 2rem;
     }
+}
+
+.fa-all-cars {
+    margin-right: 10px;
+    color: #666666;
 }
