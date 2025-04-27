@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/rent-a-car-app/static/css/main.b03fa97b.css",
+    "main.css": "/rent-a-car-app/static/css/main.5edb3ea6.css",
     "main.js": "/rent-a-car-app/static/js/main.6b8d64b3.js",
     "static/js/453.25a34b43.chunk.js": "/rent-a-car-app/static/js/453.25a34b43.chunk.js",
     "static/media/all-cars.jpeg": "/rent-a-car-app/static/media/all-cars.6dfe00a9d6ea4388b99b.jpeg",
     "static/media/contact-hero.jpg": "/rent-a-car-app/static/media/contact-hero.36159ab6462a383c085d.jpg",
+    "static/media/rent-now.jpg": "/rent-a-car-app/static/media/rent-now.902b8b6dfb4f61fdcf9c.jpg",
     "static/media/welcome-rent.jpg": "/rent-a-car-app/static/media/welcome-rent.2d3d1b8a8f359a7eceff.jpg",
     "static/media/slick.svg": "/rent-a-car-app/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/rent-a-car-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/rent-a-car-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/rent-a-car-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/rent-a-car-app/index.html",
-    "main.b03fa97b.css.map": "/rent-a-car-app/static/css/main.b03fa97b.css.map",
+    "main.5edb3ea6.css.map": "/rent-a-car-app/static/css/main.5edb3ea6.css.map",
     "main.6b8d64b3.js.map": "/rent-a-car-app/static/js/main.6b8d64b3.js.map",
     "453.25a34b43.chunk.js.map": "/rent-a-car-app/static/js/453.25a34b43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b03fa97b.css",
+    "static/css/main.5edb3ea6.css",
     "static/js/main.6b8d64b3.js"
   ]
 }
