@@ -8,11 +8,22 @@ function HomePage() {
     const navigate = useNavigate();
     return (
         <div className="home-container">
-            <div className="welcome-image">
+            {/* <div className="welcome-image">
                 <h2 className="welcome-title">Drive Your Freedom, Rent Your Adventure</h2>
                 <p className="welcome-subtitle">Premium cars, hassle-free rentals. Book your perfect ride today!</p>
                 <button className="welcome-button" onClick={() => navigate('/contact')}>CONTACT US</button>
+            </div> */}
+            <div className="welcome-image">
+                <div className="welcome-overlay">
+                    <h1 className="welcome-title">Drive Your Freedom</h1>
+                    <p className="welcome-subtitle">Luxury cars, delivered. Rent your adventure today.</p>
+                    <button className="welcome-button" onClick={() => navigate('/contact')}>
+                        Get in Touch
+                    </button>
+                </div>
             </div>
+
+
 
             <div className='about-container'>
                 <div className='about-image-container' onClick={() => navigate('/contact')}>
